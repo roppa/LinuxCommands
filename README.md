@@ -23,3 +23,7 @@ Create SSH tunnel that when a connection is made to the port `5044` on `10.10.10
 Create a symbolic link called `myApplication` that is linked to `myApplication_1.0.3`
 
 `ln -s myApplication_1.0.3 myApplication`
+
+### Find what is running on port
+
+`sudo lsof -i tcp:port`
