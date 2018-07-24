@@ -39,9 +39,11 @@ Create a symbolic link called `myApplication` that is linked to `myApplication_1
 ##### Every 1 second
 
 `while sleep 1; do [cmd]; done` 
+
 `while sleep 1; do echo "Hello"; done`
 
 ##### Every millisecond
 
 `while sleep 0.1; do [cmd]; done` 
+
 `while sleep 0.1; do echo "Hello"; done`
