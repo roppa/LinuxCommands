@@ -32,6 +32,10 @@ Create a symbolic link called `myApplication` that is linked to `myApplication_1
 
 `sudo lsof -i tcp:port`
 
+### Find biggest 30 files
+
+`sudo find -type f -exec du -Sh {} + | sort -rh | head -n 30`
+
 # Running Commands
 
 ### Run command every interval
