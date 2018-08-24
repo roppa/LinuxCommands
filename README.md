@@ -1,5 +1,5 @@
 1. [SCP/SSH](#scp-ssh)
-1. [Symbolic Links](#Symbolic Links)
+1. [Symbolic Links](#Symbolic-Links)
 
 #scp-ssh
 
@@ -22,9 +22,9 @@ Create SSH tunnel that when a connection is made to the port `5044` on `10.10.10
 
 `ssh -R 5044:localhost:5044 10.10.10.10`
 
-#Symbolic Links
+#Symbolic-Links
 
-### Symbolic Links
+### Symbolic-Links
 Create a symbolic link called `myApplication` that is linked to `myApplication_1.0.3`
 
 `ln -s myApplication_1.0.3 myApplication`
