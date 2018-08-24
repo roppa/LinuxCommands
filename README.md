@@ -1,4 +1,4 @@
-# SCP/SSH
+# [SCP/SSH](#scp-ssh)
 
 ### SCP to Server
 SCP all files in `/path/to/files/` to `10.10.10.10` to `serverDIR`
