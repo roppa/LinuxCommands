@@ -1,4 +1,7 @@
-# [SCP/SSH](#scp-ssh)
+1. [SCP/SSH](#scp-ssh]
+1. [Symbolic Links](#symbolic-links)
+
+#scp-ssh
 
 ### SCP to Server
 SCP all files in `/path/to/files/` to `10.10.10.10` to `serverDIR`
@@ -19,7 +22,7 @@ Create SSH tunnel that when a connection is made to the port `5044` on `10.10.10
 
 `ssh -R 5044:localhost:5044 10.10.10.10`
 
-# Symbolic Links
+#symbolic-links
 
 ### Symbolic Links
 Create a symbolic link called `myApplication` that is linked to `myApplication_1.0.3`
