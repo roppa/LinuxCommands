@@ -1,4 +1,4 @@
-1. [SCP/SSH](#scp-ssh]
+1. [SCP/SSH](#scp-ssh)
 1. [Symbolic Links](#symbolic-links)
 
 #scp-ssh
