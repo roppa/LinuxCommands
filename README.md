@@ -54,3 +54,9 @@ Create a symbolic link called `myApplication` that is linked to `myApplication_1
 `while sleep 0.1; do [cmd]; done` 
 
 `while sleep 0.1; do echo "Hello"; done`
+
+
+# AWK
+
+## Get only the % in `df-h`
+`df -h / | tail -1 | awk '{print $5}'`
