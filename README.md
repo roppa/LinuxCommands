@@ -1,7 +1,4 @@
-1. [SCP/SSH](#scp-ssh)
-1. [Symbolic Links](#Symbolic-Links)
-
-#scp-ssh
+# SCP/SSH
 
 ### SCP to Server
 SCP all files in `/path/to/files/` to `10.10.10.10` to `serverDIR`
