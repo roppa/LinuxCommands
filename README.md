@@ -57,3 +57,7 @@ Create a symbolic link called `myApplication` that is linked to `myApplication_1
 
 ## Get only the % in `df-h`
 `df -h / | tail -1 | awk '{print $5}'`
+
+# NC
+
+`nc -z -v {host} {port}`
