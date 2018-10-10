@@ -46,6 +46,8 @@ Create a symbolic link called `myApplication` that is linked to `myApplication_1
 
 `while sleep 1; do echo "Hello"; done`
 
+`while true; do clear; ./runScript.sh; sleep 1; done`
+
 ##### Every millisecond
 
 `while sleep 0.1; do [cmd]; done` 
