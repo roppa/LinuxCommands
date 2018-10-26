@@ -63,3 +63,9 @@ Create a symbolic link called `myApplication` that is linked to `myApplication_1
 # NC
 
 `nc -z -v {host} {port}`
+
+# Kill commands
+
+## Kill multiple processes
+
+`for pid in $(ps -ef | grep "process name" | awk '{print $2}'); do kill -9 $pid; done`
